@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://busrdhbj776sa"]
+
+[ext_resource type="Script" uid="uid://d0lhww67k0l31" path="res://Scripts/BattleTest.cs" id="1_rtnsb"]
+
+[node name="BattleTest" type="Node2D" unique_id=1723431001]
+script = ExtResource("1_rtnsb")
+metadata/_edit_vertical_guides_ = [-106.0]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1804243619]
+
+[node name="Player" type="Node2D" parent="." unique_id=1686967481]
+
+[node name="Enemy" type="Node2D" parent="." unique_id=2019702899]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=261895694]
+
+[node name="BattleUI" type="Control" parent="CanvasLayer" unique_id=25114888]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerHPLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=1478033678]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 1
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Player HP"
+
+[node name="EnemyHPLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=1384580603]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -79.0
+offset_bottom = 23.0
+grow_horizontal = 0
+text = "Enemy HP"
+
+[node name="MessageLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=243463876]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -56.5
+offset_top = -11.5
+offset_right = 56.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Message Label"
+
+[node name="ActionPanel" type="Panel" parent="CanvasLayer/BattleUI" unique_id=228114572]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/BattleUI/ActionPanel" unique_id=1589819599]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -65.0
+offset_top = -101.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="AttackButton" type="Button" parent="CanvasLayer/BattleUI/ActionPanel/VBoxContainer" unique_id=1836338337]
+layout_mode = 2
+action_mode = 0
+text = "Attack"
+
+[node name="DefendButton" type="Button" parent="CanvasLayer/BattleUI/ActionPanel/VBoxContainer" unique_id=16239989]
+layout_mode = 2
+action_mode = 0
+text = "Defend
+"
+
+[node name="DodgeButton" type="Button" parent="CanvasLayer/BattleUI/ActionPanel/VBoxContainer" unique_id=1557403877]
+layout_mode = 2
+action_mode = 0
+text = "Dodge"

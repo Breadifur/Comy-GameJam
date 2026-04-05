@@ -53,6 +53,11 @@ Desktop.ini
 # VS Code
 # -----------------------------
 .vscode/
+.vs/
+*.tmp
+*.user
+*.rsuser
+*.suo
 
 # -----------------------------
 # Logs / temp

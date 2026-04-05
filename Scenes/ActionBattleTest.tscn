@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://kk8a7rkfnuv3"]
+
+[ext_resource type="Script" uid="uid://baphcm7ce145m" path="res://Scripts/ActionBattleTest.cs" id="1_2d5iy"]
+[ext_resource type="Script" uid="uid://cnsc3vh7py5ks" path="res://Scripts/Player.cs" id="2_sfym4"]
+[ext_resource type="Texture2D" uid="uid://c47bytyqsv2jc" path="res://Sprites/jump sprite.png" id="3_aw6lg"]
+[ext_resource type="Texture2D" uid="uid://minnbre5cdxn" path="res://Sprites/Sprite-0001-Sheet.png" id="3_sipso"]
+[ext_resource type="Texture2D" uid="uid://cbsmiwy7ac5mu" path="res://icon.svg" id="4_lc3eh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fg3w"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_scomr"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k4ke3"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_32ils"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w2k7b"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in6vk"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2coui"]
+atlas = ExtResource("3_aw6lg")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lc3eh"]
+atlas = ExtResource("3_sipso")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw6lg"]
+atlas = ExtResource("3_sipso")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ytlct"]
+atlas = ExtResource("3_sipso")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8a4hd"]
+atlas = ExtResource("3_sipso")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7sxd"]
+atlas = ExtResource("3_sipso")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_peese"]
+atlas = ExtResource("3_sipso")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mxl2"]
+atlas = ExtResource("3_sipso")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1fg3w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1fg3w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_scomr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k4ke3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_32ils")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w2k7b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in6vk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2coui")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lc3eh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw6lg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ytlct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8a4hd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7sxd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_peese")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3mxl2")
+}],
+"loop": false,
+"name": &"walk",
+"speed": 10.0
+}]
+
+[node name="ActionBattleTest" type="Node2D" unique_id=1916346121]
+script = ExtResource("1_2d5iy")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=869490938]
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=42103412]
+position = Vector2(100, 100)
+script = ExtResource("2_sfym4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1966278617]
+sprite_frames = SubResource("SpriteFrames_1fg3w")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=2018360744]
+
+[node name="Enemy" type="Sprite2D" parent="." unique_id=1047101953]
+position = Vector2(400, 400)
+
+[node name="Sprite2D" type="Sprite2D" parent="Enemy" unique_id=1979128351]
+texture = ExtResource("4_lc3eh")
+
+[node name="Area2D" type="Area2D" parent="Enemy" unique_id=155003339]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy/Area2D" unique_id=649246948]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1978006843]
+
+[node name="BattleUI" type="Control" parent="CanvasLayer" unique_id=1835007756]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerHPLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=1332375231]
+layout_mode = 1
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="EnemyHPLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=208066040]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -40.0
+offset_bottom = 23.0
+grow_horizontal = 0
+
+[node name="MessageLabel" type="Label" parent="CanvasLayer/BattleUI" unique_id=1077953793]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -23.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0

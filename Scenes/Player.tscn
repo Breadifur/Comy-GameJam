@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://crxdt53071npt"]
 
-[ext_resource type="Script" uid="uid://cnsc3vh7py5ks" path="res://Scripts/Player.cs" id="1_rpqav"]
 [ext_resource type="Texture2D" uid="uid://c47bytyqsv2jc" path="res://Sprites/jump sprite.png" id="2_gntrk"]
 [ext_resource type="Texture2D" uid="uid://minnbre5cdxn" path="res://Sprites/Sprite-0001-Sheet.png" id="2_kyqiw"]
 
@@ -118,7 +117,6 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kyqiw"]
 
 [node name="Player" type="CharacterBody2D" unique_id=998885337]
-script = ExtResource("1_rpqav")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1109182356]
 sprite_frames = SubResource("SpriteFrames_rpqav")
