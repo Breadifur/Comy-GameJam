@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjfdl31dr6pbx"
-path="res://.godot/imported/house_03.png-15d23eee9f932ac0bf1d611538fa1fbd.ctex"
+uid="uid://chcmsj1fe80vw"
+path="res://.godot/imported/grass-mid tone-transp.png-88f88317bc0d9d64560d740ce2e0f4fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/WorldSprites/Props/Houses/house_03.png"
-dest_files=["res://.godot/imported/house_03.png-15d23eee9f932ac0bf1d611538fa1fbd.ctex"]
+source_file="res://Assets/Sprites/WorldSprites/Terrain/grass-mid tone-transp.png"
+dest_files=["res://.godot/imported/grass-mid tone-transp.png-88f88317bc0d9d64560d740ce2e0f4fa.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjfdl31dr6pbx"
-path="res://.godot/imported/house_03.png-15d23eee9f932ac0bf1d611538fa1fbd.ctex"
+uid="uid://chewk45ocgx4g"
+path="res://.godot/imported/Tileset-TerrainOG.png-697d91b3470b94d507c48c9570ffcc39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/WorldSprites/Props/Houses/house_03.png"
-dest_files=["res://.godot/imported/house_03.png-15d23eee9f932ac0bf1d611538fa1fbd.ctex"]
+source_file="res://Assets/Sprites/WorldSprites/Terrain/Tileset-TerrainOG.png"
+dest_files=["res://.godot/imported/Tileset-TerrainOG.png-697d91b3470b94d507c48c9570ffcc39.ctex"]
 
 [params]
 
