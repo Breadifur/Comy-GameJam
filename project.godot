@@ -73,3 +73,10 @@ sprint={
 textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
+
+[wwise]
+
+common_user_settings/root_output_path="res://Wwise"
+project_settings/windows_platform_info="res://Wwise/resources/Windows.tres"
+project_settings/mac_platform_info="res://Wwise/resources/Mac.tres"
+project_settings/linux_platform_info="res://Wwise/resources/Linux.tres"

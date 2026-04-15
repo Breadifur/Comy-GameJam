@@ -1,3 +1,408 @@
 [gd_resource type="WwiseProjectData" format=3 uid="uid://cx48e51wintep"]
 
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dn5s6"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Acoustic_Banner"
+type = 15
+name = "Acoustic_Banner"
+guid = "{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}"
+id = 4168643977
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_abdhx"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Anechoic"
+type = 15
+name = "Anechoic"
+guid = "{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}"
+id = 1873957695
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wbiwk"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Brick"
+type = 15
+name = "Brick"
+guid = "{B086A5A9-F204-4C53-A838-BDB18B18F6D6}"
+id = 504532776
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_n4jq4"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Carpet"
+type = 15
+name = "Carpet"
+guid = "{34227589-DC56-4260-96C4-B9F4B669092B}"
+id = 2412606308
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2b7v5"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Concrete"
+type = 15
+name = "Concrete"
+guid = "{5CF81C00-2896-4AE0-AF7C-3080BDABA682}"
+id = 841620460
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_yty4k"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Cork_Tiles"
+type = 15
+name = "Cork_Tiles"
+guid = "{30D2C919-925F-4143-8906-3DBB3C4AE5E2}"
+id = 3195498748
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_rq3ka"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Curtains"
+type = 15
+name = "Curtains"
+guid = "{F8E69E33-5C97-4968-B508-A1535F2D66E8}"
+id = 2928161104
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tfk2a"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Drywall"
+type = 15
+name = "Drywall"
+guid = "{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}"
+id = 3670307564
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_e6o1r"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Fabric"
+type = 15
+name = "Fabric"
+guid = "{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}"
+id = 1970351858
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2v05p"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Mountain"
+type = 15
+name = "Mountain"
+guid = "{C5933731-001A-4AB4-98DD-9B033A8C8EAB}"
+id = 513139656
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tmxjl"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Tile"
+type = 15
+name = "Tile"
+guid = "{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}"
+id = 2637588553
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_im43k"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood"
+type = 15
+name = "Wood"
+guid = "{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}"
+id = 2058049674
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_pgs3n"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Bright"
+type = 15
+name = "Wood_Bright"
+guid = "{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}"
+id = 4262522749
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5ewln"]
+path = "\\Virtual Acoustics\\Factory Acoustic Textures\\Textures\\Wood_Deep"
+type = 15
+name = "Wood_Deep"
+guid = "{5246478E-C5DA-4E0C-A0DE-C98D1479529A}"
+id = 1755085759
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_oeww5"]
+children = [SubResource("WwiseTreeObject_dn5s6"), SubResource("WwiseTreeObject_abdhx"), SubResource("WwiseTreeObject_wbiwk"), SubResource("WwiseTreeObject_n4jq4"), SubResource("WwiseTreeObject_2b7v5"), SubResource("WwiseTreeObject_yty4k"), SubResource("WwiseTreeObject_rq3ka"), SubResource("WwiseTreeObject_tfk2a"), SubResource("WwiseTreeObject_e6o1r"), SubResource("WwiseTreeObject_2v05p"), SubResource("WwiseTreeObject_tmxjl"), SubResource("WwiseTreeObject_im43k"), SubResource("WwiseTreeObject_pgs3n"), SubResource("WwiseTreeObject_5ewln")]
+name = "Textures"
+id = 1276632493
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_4djpx"]
+children = [SubResource("WwiseTreeObject_oeww5")]
+name = "Factory Acoustic Textures"
+id = 2954047558
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_mqnyt"]
+path = "\\Busses\\Default Work Unit\\Main Audio Bus"
+type = 2
+name = "Main Audio Bus"
+guid = "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+id = 2246998526
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_v560u"]
+children = [SubResource("WwiseTreeObject_mqnyt")]
+name = "Default Work Unit"
+id = 125608783
+
+[sub_resource type="WwiseTreeObjectEvent" id="WwiseTreeObjectEvent_yyrou"]
+max_duration = 0.0
+min_duration = 0.0
+path = "\\Events\\Default Work Unit\\New_Event"
+type = 3
+name = "New_Event"
+guid = "{3FB27288-3E60-41FD-AC06-B3D15DE5D84C}"
+id = 3050945240
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_geu6g"]
+children = [SubResource("WwiseTreeObjectEvent_yyrou")]
+name = "Default Work Unit"
+id = 125608783
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5n8hf"]
+path = "\\States\\Default Work Unit\\CombatState\\None"
+type = 8
+name = "None"
+guid = "{5E2DA5F3-5C24-484E-9E32-648CFDB1E475}"
+id = 748895195
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_tnib1"]
+path = "\\States\\Default Work Unit\\CombatState"
+children = [SubResource("WwiseTreeObject_5n8hf")]
+type = 9
+name = "CombatState"
+guid = "{74F99C7B-E219-4648-B433-E9AEC24B163D}"
+id = 1071758680
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o7sea"]
+path = "\\States\\Default Work Unit\\MainMenuState\\MusicOn"
+type = 8
+name = "MusicOn"
+guid = "{708695D4-2B43-4EF6-BA79-02F0520E43E8}"
+id = 3998479257
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_lrto0"]
+path = "\\States\\Default Work Unit\\MainMenuState\\None"
+type = 8
+name = "None"
+guid = "{A63FB7C1-9B82-45DF-A181-9D413AA4A6C8}"
+id = 748895195
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_i5cxa"]
+path = "\\States\\Default Work Unit\\MainMenuState"
+children = [SubResource("WwiseTreeObject_o7sea"), SubResource("WwiseTreeObject_lrto0")]
+type = 9
+name = "MainMenuState"
+guid = "{5DDFDDFC-29C5-43E7-BF41-65F21F6AAD44}"
+id = 4015577990
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_ptp8y"]
+path = "\\States\\Default Work Unit\\TalkingState\\None"
+type = 8
+name = "None"
+guid = "{005E743D-F149-402A-B755-752C125E3970}"
+id = 748895195
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_26l8v"]
+path = "\\States\\Default Work Unit\\TalkingState"
+children = [SubResource("WwiseTreeObject_ptp8y")]
+type = 9
+name = "TalkingState"
+guid = "{271DB239-2661-4FCB-8E53-46B08179F32F}"
+id = 4107386924
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_hir8t"]
+path = "\\States\\Default Work Unit\\WorldState\\MusicOn"
+type = 8
+name = "MusicOn"
+guid = "{7691640C-9E91-44DC-87D1-5084C1EEBEC7}"
+id = 3998479257
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_viedb"]
+path = "\\States\\Default Work Unit\\WorldState\\None"
+type = 8
+name = "None"
+guid = "{3A2F9C6A-936A-4861-9A99-C492B2562AA7}"
+id = 748895195
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_bq6kk"]
+path = "\\States\\Default Work Unit\\WorldState"
+children = [SubResource("WwiseTreeObject_hir8t"), SubResource("WwiseTreeObject_viedb")]
+type = 9
+name = "WorldState"
+guid = "{FABB03E4-B93E-4757-9F03-8CA345B3BEC2}"
+id = 1048369770
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_hssb3"]
+children = [SubResource("WwiseTreeObject_tnib1"), SubResource("WwiseTreeObject_i5cxa"), SubResource("WwiseTreeObject_26l8v"), SubResource("WwiseTreeObject_bq6kk")]
+name = "Default Work Unit"
+id = 125608783
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_0g3k4"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC\\DirtJump"
+type = 10
+name = "DirtJump"
+guid = "{252C8970-8F75-4266-8F11-98A3658B874C}"
+id = 1835284706
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_5ppdk"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC\\GrassJump"
+type = 10
+name = "GrassJump"
+guid = "{35153BF1-1C82-4B89-90D8-C7E952E0890A}"
+id = 2628072365
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_l65hi"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC\\GravelJump"
+type = 10
+name = "GravelJump"
+guid = "{7C8B940D-3E4B-4B10-8222-771B57B354BF}"
+id = 1128852020
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_63ewg"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC\\StoneJump"
+type = 10
+name = "StoneJump"
+guid = "{03B2489F-E0C9-428B-83D5-913F599C7339}"
+id = 1608852672
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_myib7"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC\\WoodJump"
+type = 10
+name = "WoodJump"
+guid = "{CAA81BD0-1512-4736-97E4-D812C63AAB52}"
+id = 2564151170
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_gv40o"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootJumpNPC"
+children = [SubResource("WwiseTreeObject_0g3k4"), SubResource("WwiseTreeObject_5ppdk"), SubResource("WwiseTreeObject_l65hi"), SubResource("WwiseTreeObject_63ewg"), SubResource("WwiseTreeObject_myib7")]
+type = 11
+name = "FootJumpNPC"
+guid = "{D087638A-970A-4245-AAB0-3B4B1D6630AC}"
+id = 660707862
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_0hqp2"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC\\Dirt"
+type = 10
+name = "Dirt"
+guid = "{3C29B9CB-621D-4969-B055-30796D478970}"
+id = 2195636714
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_h61g6"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC\\Grass"
+type = 10
+name = "Grass"
+guid = "{E06A07AF-BE3F-4875-8C10-DE2AD92D9B66}"
+id = 4248645337
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_q407k"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC\\Gravel"
+type = 10
+name = "Gravel"
+guid = "{4B7DA0FF-B4AC-42B7-936E-B76EE0836DC3}"
+id = 2185786256
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o561g"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC\\Stone"
+type = 10
+name = "Stone"
+guid = "{2C0F7AC7-018F-40B2-886E-A2987F2CF772}"
+id = 1216965916
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_dipfp"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC\\Wood"
+type = 10
+name = "Wood"
+guid = "{5408EA38-A91A-40D9-AE72-D6175F9C0585}"
+id = 2058049674
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_orwwv"]
+path = "\\Switches\\Default Work Unit\\NPCSyncs\\FootStepsNPC"
+children = [SubResource("WwiseTreeObject_0hqp2"), SubResource("WwiseTreeObject_h61g6"), SubResource("WwiseTreeObject_q407k"), SubResource("WwiseTreeObject_o561g"), SubResource("WwiseTreeObject_dipfp")]
+type = 11
+name = "FootStepsNPC"
+guid = "{681EB41A-6F97-4194-AB02-67CE4D5EEBAE}"
+id = 1682058159
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_4owox"]
+children = [SubResource("WwiseTreeObject_gv40o"), SubResource("WwiseTreeObject_orwwv")]
+name = "NPCSyncs"
+id = 607908782
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_d4u1n"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC\\DirtJump"
+type = 10
+name = "DirtJump"
+guid = "{4D63C9F8-4A27-4A7E-B7F8-93093A8098DC}"
+id = 1835284706
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2m8v7"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC\\GrassJump"
+type = 10
+name = "GrassJump"
+guid = "{B38E7011-B8AC-4CD2-AEF2-2A449C5E88A3}"
+id = 2628072365
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_wchpu"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC\\GravelJump"
+type = 10
+name = "GravelJump"
+guid = "{0762D6C2-3AFB-48C5-9114-AEFE9D7C078A}"
+id = 1128852020
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_ujawv"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC\\StoneJump"
+type = 10
+name = "StoneJump"
+guid = "{E3EE1AA0-81BE-4B95-89A0-3A83B6819546}"
+id = 1608852672
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_8ttr2"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC\\WoodJump"
+type = 10
+name = "WoodJump"
+guid = "{14412CBB-0C33-4314-98F4-AF706FB958E5}"
+id = 2564151170
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_85ijg"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootJumpPC"
+children = [SubResource("WwiseTreeObject_d4u1n"), SubResource("WwiseTreeObject_2m8v7"), SubResource("WwiseTreeObject_wchpu"), SubResource("WwiseTreeObject_ujawv"), SubResource("WwiseTreeObject_8ttr2")]
+type = 11
+name = "FootJumpPC"
+guid = "{770E5840-D651-4DF6-AC39-C798E4AB9E95}"
+id = 57372634
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_x2q8b"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC\\Dirt"
+type = 10
+name = "Dirt"
+guid = "{8796EC5E-C105-4F56-A4B8-53029141AFA9}"
+id = 2195636714
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_t5yhp"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC\\Grass"
+type = 10
+name = "Grass"
+guid = "{28F0EAD4-B563-4B6A-A045-D11A4E0BCC96}"
+id = 4248645337
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_3v8cc"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC\\Gravel"
+type = 10
+name = "Gravel"
+guid = "{92EE7E86-9ADA-4B1A-9253-A67DBC06C37D}"
+id = 2185786256
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_7f6pv"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC\\Stone"
+type = 10
+name = "Stone"
+guid = "{6D29ADD9-7FD0-4ABD-A7A4-18311729B968}"
+id = 1216965916
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_2bj2c"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC\\Wood"
+type = 10
+name = "Wood"
+guid = "{663499CC-9457-4C7C-A6D7-5D7AFAB3AD87}"
+id = 2058049674
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_31b5r"]
+path = "\\Switches\\Default Work Unit\\PCSyncs\\FootStepsPC"
+children = [SubResource("WwiseTreeObject_x2q8b"), SubResource("WwiseTreeObject_t5yhp"), SubResource("WwiseTreeObject_3v8cc"), SubResource("WwiseTreeObject_7f6pv"), SubResource("WwiseTreeObject_2bj2c")]
+type = 11
+name = "FootStepsPC"
+guid = "{AFCEF423-DA3E-41B5-8ED6-73F51AC6B8F0}"
+id = 436374629
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_o035g"]
+children = [SubResource("WwiseTreeObject_85ijg"), SubResource("WwiseTreeObject_31b5r")]
+name = "PCSyncs"
+id = 2653420962
+
+[sub_resource type="WwiseTreeObject" id="WwiseTreeObject_eobpg"]
+children = [SubResource("WwiseTreeObject_4owox"), SubResource("WwiseTreeObject_o035g")]
+name = "Default Work Unit"
+id = 125608783
+
 [resource]
+acoustic_texture_root = [SubResource("WwiseTreeObject_4djpx")]
+bus_root = [SubResource("WwiseTreeObject_v560u")]
+event_root = [SubResource("WwiseTreeObject_geu6g")]
+state_root = [SubResource("WwiseTreeObject_hssb3")]
+switch_root = [SubResource("WwiseTreeObject_eobpg")]
