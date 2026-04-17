@@ -2,7 +2,29 @@ class_name AK
 
 class EVENTS:
 
-	const NEW_EVENT : int = 3050945240
+	const PLAY_DIRT_IN_THE_EYES : int = 1885250190
+	const PLAY_DRAIN : int = 4127706388
+	const PLAY_HYDROGUN : int = 2779963710
+	const PLAY_SPORE_SMOG : int = 1658419434
+	const PLAY_STONE_SPRAY : int = 1167008723
+	const PLAY_TACKLE : int = 1038167056
+	const PLAY_NPCJUMP : int = 1652994547
+	const PLAY_NPCSTEPS : int = 3067063784
+	const PLAY_BURNING_PASSION : int = 3405692285
+	const PLAY_CALM : int = 3233888351
+	const PLAY_FIRE_SHIELD : int = 1904302362
+	const PLAY_FORTRESS : int = 1393278952
+	const PLAY_HEALING_DRIP : int = 3504900630
+	const PLAY_HEAT_UP : int = 842623176
+	const PLAY_MUCK_UP : int = 347070710
+	const PLAY_PLANT_SHIELD : int = 2768387359
+	const PLAY_ROOT_DRAIN : int = 2854833365
+	const PLAY_SMELL_THE_ROSES : int = 3315039590
+	const PLAY_TAME : int = 2819090973
+	const PLAY_WATER_SHIELD : int = 649585933
+	const PLAY_WATER_STREAM : int = 2832580902
+	const PLAY_PCJUMP : int = 1726108645
+	const PLAY_PCSTEPS : int = 3455141938
 
 class STATES:
 
@@ -75,6 +97,9 @@ class SWITCHES:
 			const STONE : int = 1216965916
 			const WOOD : int = 2058049674
 
+	class PCCOMBAT:
+		const GROUP : int = 1141748034
+	
 
 class GAME_PARAMETERS:
 	pass
@@ -86,7 +111,8 @@ class BANKS:
 	pass
 
 class AUX_BUSSES:
-	pass
+
+	const GENVERB : int = 3028825326
 
 class ACOUSTIC_TEXTURES:
 
@@ -104,3 +130,4 @@ class ACOUSTIC_TEXTURES:
 	const WOOD : int = 2058049674
 	const WOOD_BRIGHT : int = 4262522749
 	const WOOD_DEEP : int = 1755085759
+
